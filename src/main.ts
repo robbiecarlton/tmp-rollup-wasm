@@ -1,9 +1,7 @@
-import foo from './foo.js';
 import { KeyManager, deriveSeedFrom } from '@holo-host/cryptolib'
 
 function go () {
-    // console.log(foo)
-    const seed = deriveSeedFrom(new Uint8Array([]), 'a', 'b')
+    const seed: Uint8Array = deriveSeedFrom(new Uint8Array([]), 'a', 'b')
     const keys = new KeyManager(seed)
 
     console.log("publicKey", keys.publicKey())

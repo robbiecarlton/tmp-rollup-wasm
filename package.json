@@ -10,7 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cloudflare/workers-types": "^4.20230518.0",
     "@holo-host/cryptolib": "^0.3.2",
-    "rollup": "^3.23.0"
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.2.3",
+    "jest-environment-miniflare": "^2.14.0",
+    "rollup": "^3.23.0",
+    "tslib": "^2.5.2",
+    "typescript": "^5.0.4"
   }
 }
