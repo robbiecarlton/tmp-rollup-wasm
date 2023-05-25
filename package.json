@@ -1,0 +1,16 @@
+{
+  "name": "rollup-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "rollup -c && node bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@holo-host/cryptolib": "^0.3.2",
+    "rollup": "^3.23.0"
+  }
+}
