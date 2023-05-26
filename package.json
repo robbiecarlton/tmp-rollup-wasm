@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "go": "rollup -c && node bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "test": "npm run build && NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "@types/node": "^20.2.3",
     "jest-environment-miniflare": "^2.14.0",
     "rollup": "^3.23.0",
+    "ts-jest": "^29.1.0",
     "tslib": "^2.5.2",
     "typescript": "^5.0.4"
   }
